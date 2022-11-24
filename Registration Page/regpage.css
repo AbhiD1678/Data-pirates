@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(162, 166, 163, 0.586);
+}
+header{
+    background-color: orange;
+    text-align: center;
+    /* height: 70px;
+    width: 1520px; */
+    padding: 10px 0px 10px 0px;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 25px;
+    /* font-size: 25px; */
+    /* padding: 10px 10px 55px 10px; */
+    /* text-shadow: 10000px 300px 200px 0px black; */
+}
+section{
+    background-color: rgba(229, 163, 40, 0.784);
+    height: 1000px;
+    width: 800px;
+    border-radius: 30px;
+}
+P{
+    font-size: 30px;
+    padding: 10px 20px 20px 20px;
+}
+input[type=text],[type=number],[type=email]{
+    height: 30px;
+    width: 500px;
+}
+select{
+    height: 30px;
+    width: 500px;
+}
+input[type=submit]{
+    height: 35px;
+    width: 300px;
+    color: black;
+    background-color: rgb(255, 98, 0);
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    background-image: url(Map.jpg);
+    background-attachment: fixed;
+
+}
